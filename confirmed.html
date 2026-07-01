@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Email confirmed - Whyrl</title>
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .confirm-wrap {
+      min-height: calc(100vh - 130px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .confirm-card {
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 44px 32px;
+    }
+    .confirm-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--accent-dim);
+      color: var(--accent);
+      font-size: 28px;
+      font-weight: 900;
+      margin-bottom: 20px;
+    }
+    .confirm-card h1 {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      margin: 0 0 10px;
+    }
+    .confirm-card p {
+      color: var(--text-secondary);
+      font-size: 15px;
+      margin: 0 0 28px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">W</span>
+        Whyrl
+      </a>
+      <nav>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="confirm-wrap">
+    <div class="confirm-card">
+      <span class="confirm-icon">&check;</span>
+      <h1>You're all set</h1>
+      <p>Your email is confirmed. You're good to go back to the app now and sign in.</p>
+      <a class="btn btn-primary" href="whyrl://">Open Whyrl</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Mathieu Roy. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="mailto:support@whyrl.online">support@whyrl.online</a>
+    </div>
+  </footer>
+</body>
+</html>
