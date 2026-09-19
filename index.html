@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="theme-color" content="#152d35" />
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://whyrl.app/" />
@@ -28,14 +28,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="header">
     <div class="header-inner">
       <a class="logo" href="index.html">
-        <span class="logo-mark">W</span>
+        <img class="logo-mark" src="/apple-touch-icon.png" alt="" width="30" height="30" />
         Whyrl
       </a>
       <nav>
@@ -59,12 +59,12 @@
         <a class="btn btn-secondary" href="#categories">Explore Features</a>
       </div>
       <div class="categories" id="categories">
-        <span class="pill" style="--accent:var(--c-politics); color:var(--c-politics); border-color:color-mix(in srgb, var(--c-politics) 28%, transparent); background:color-mix(in srgb, var(--c-politics) 12%, var(--surface));">🏛️ Politics</span>
-        <span class="pill" style="--accent:var(--c-finance); color:var(--c-finance); border-color:color-mix(in srgb, var(--c-finance) 28%, transparent); background:color-mix(in srgb, var(--c-finance) 12%, var(--surface));">📈 Finance</span>
-        <span class="pill" style="--accent:var(--c-sport); color:var(--c-sport); border-color:color-mix(in srgb, var(--c-sport) 28%, transparent); background:color-mix(in srgb, var(--c-sport) 12%, var(--surface));">⚽ Sport</span>
-        <span class="pill" style="--accent:var(--c-entertainment); color:var(--c-entertainment); border-color:color-mix(in srgb, var(--c-entertainment) 28%, transparent); background:color-mix(in srgb, var(--c-entertainment) 12%, var(--surface));">🎭 Entertainment</span>
-        <span class="pill" style="--accent:var(--c-tech); color:var(--c-tech); border-color:color-mix(in srgb, var(--c-tech) 28%, transparent); background:color-mix(in srgb, var(--c-tech) 12%, var(--surface));">💻 Tech</span>
-        <span class="pill" style="--accent:var(--c-world); color:var(--c-world); border-color:color-mix(in srgb, var(--c-world) 28%, transparent); background:color-mix(in srgb, var(--c-world) 12%, var(--surface));">🌍 World</span>
+        <span class="pill" style="--accent:var(--c-politics); color:var(--c-politics); border-color:color-mix(in srgb, var(--c-politics) 28%, transparent); background:color-mix(in srgb, var(--c-politics) 12%, var(--surface));">Politics</span>
+        <span class="pill" style="--accent:var(--c-finance); color:var(--c-finance); border-color:color-mix(in srgb, var(--c-finance) 28%, transparent); background:color-mix(in srgb, var(--c-finance) 12%, var(--surface));">Finance</span>
+        <span class="pill" style="--accent:var(--c-sport); color:var(--c-sport); border-color:color-mix(in srgb, var(--c-sport) 28%, transparent); background:color-mix(in srgb, var(--c-sport) 12%, var(--surface));">Sport</span>
+        <span class="pill" style="--accent:var(--c-entertainment); color:var(--c-entertainment); border-color:color-mix(in srgb, var(--c-entertainment) 28%, transparent); background:color-mix(in srgb, var(--c-entertainment) 12%, var(--surface));">Entertainment</span>
+        <span class="pill" style="--accent:var(--c-tech); color:var(--c-tech); border-color:color-mix(in srgb, var(--c-tech) 28%, transparent); background:color-mix(in srgb, var(--c-tech) 12%, var(--surface));">Tech</span>
+        <span class="pill" style="--accent:var(--c-world); color:var(--c-world); border-color:color-mix(in srgb, var(--c-world) 28%, transparent); background:color-mix(in srgb, var(--c-world) 12%, var(--surface));">World</span>
       </div>
     </section>
 
@@ -75,32 +75,32 @@
       </div>
       <div class="grid">
         <div class="card">
-          <div class="card-icon">⚡</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
           <h3>Live trending topics</h3>
           <p>Real-time trends pulled from across the web, refreshed continuously.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🤖</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.6L19.5 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9z"/><path d="M19 3v4M17 5h4"/></svg></div>
           <h3>AI-generated summaries</h3>
           <p>Every story is distilled by Claude AI into a clear, concise card. No fluff, just the facts.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🔍</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
           <h3>Search &amp; filter</h3>
           <p>Quickly find what matters with category filters and fast search.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🌙</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></div>
           <h3>Built for fast scrolling</h3>
           <p>A clean, dark-mode interface designed to get you informed and out the door.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🌍</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/></svg></div>
           <h3>Global coverage</h3>
           <p>Six categories spanning politics, finance, sport, entertainment, tech, and world news.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🧠</div>
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.7A7 7 0 0 0 12 2z"/></svg></div>
           <h3>Brain fuel, not rot</h3>
           <p>Get informed without the social media addiction. No endless scroll, just the stories that matter.</p>
         </div>
