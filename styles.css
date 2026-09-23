@@ -683,9 +683,18 @@ h3 {
   gap: 20px;
 }
 
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
 .footer a {
   color: var(--text-secondary);
   text-decoration: none;
+}
+
+.footer-social a svg {
+  display: block;
 }
 
 .footer a:hover {
